@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <meta name="robots" content="noindex, follow">
+    <title>Page Not Found | Karmy Chronic Pain Medical Clinic</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1565C0;
+            --primary-dark: #0D47A1;
+            --text-dark: #0D2257;
+            --text-body: #37474F;
+            --bg-light: #EBF4FF;
+            --white: #FFFFFF;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-light);
+            color: var(--text-body);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .card {
+            background: var(--white);
+            border-radius: 20px;
+            box-shadow: 0 10px 36px rgba(21, 101, 192, 0.15);
+            padding: 56px 40px;
+            max-width: 560px;
+            width: 100%;
+            text-align: center;
+        }
+        .code { font-size: 4.5rem; font-weight: 700; color: var(--primary); line-height: 1; }
+        h1 { font-size: 1.6rem; color: var(--text-dark); margin: 12px 0 14px; }
+        p { margin-bottom: 28px; }
+        .actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+        a.btn {
+            display: inline-block;
+            padding: 13px 28px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background .2s, color .2s;
+        }
+        a.primary { background: var(--primary); color: var(--white); }
+        a.primary:hover { background: var(--primary-dark); }
+        a.secondary { border: 2px solid var(--primary); color: var(--primary); }
+        a.secondary:hover { background: var(--primary); color: var(--white); }
+    </style>
+</head>
+<body>
+    <main class="card">
+        <div class="code">404</div>
+        <h1>We couldn&rsquo;t find that page</h1>
+        <p>The page you were looking for may have moved or no longer exists.
+           Our clinic information and contact details are on the home page.</p>
+        <div class="actions">
+            <a class="btn primary" href="/">Back to Home</a>
+            <a class="btn secondary" href="tel:4162245947">Call 416-224-5947</a>
+        </div>
+    </main>
+</body>
+</html>
